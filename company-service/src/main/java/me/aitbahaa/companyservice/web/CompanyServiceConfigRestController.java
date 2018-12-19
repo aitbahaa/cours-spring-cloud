@@ -12,9 +12,9 @@ public class CompanyServiceConfigRestController {
 
     @Value("${me}")
     private String me;
-    @Value("${xParam}")
+    @Value("${xparam}")
     private String xParam;
-    @Value("${yParam}")
+    @Value("${yparam}")
     private String yParam;
 
     @GetMapping("serviceConfig")
